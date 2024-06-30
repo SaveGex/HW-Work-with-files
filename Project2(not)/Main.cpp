@@ -19,7 +19,7 @@ int main() {
 	sqlite3_stmt* stmt;
 
 	//Create a folder in the document folder with any name. Copy the path. Paste it instead of 
-	//C:\\Documents\\ (there is another path below, give the same path instead of C:Documents\\). That's all
+	//C:\\Documents\\ (there is another path below, give the same path instead of C:Documents\\). That's all 
 	const char* path = C:\\Documents\\abonents.db";
 	int exit = sqlite3_open(path, &DB);
 
